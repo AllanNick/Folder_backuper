@@ -34,6 +34,13 @@ else:
         f.write('[WARN]process was restarted @timestamp:%s \n'%(t))
         f.write('\n')
 
+if src == '':
+    with open('log/log.txt', 'a') as f:
+        t = time.time()
+        f.write('============================ \n')
+        f.write('[ERR]source folder is not specified @timestamp:%s \n'%(t))
+        f.write('\n')
+
 logdir = os.path.join(cwd, 'log')
 
 def bkp(mode, src, dst, cwd):
@@ -94,8 +101,3 @@ if os.name == 'nt':
 else:
     print('this program is currently only supported on windows')
     sleep(5)
-
-
-
-
-

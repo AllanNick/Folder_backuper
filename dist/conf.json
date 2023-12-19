@@ -1,0 +1,8 @@
+[{
+    "mode" : "realtive",
+    "src": "",
+    "dst": "",
+    "freq": "30",
+    "log_level": "INFO",
+    "screen_buffer" : "ON"
+}]

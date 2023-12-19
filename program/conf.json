@@ -1,6 +1,6 @@
 [{
     "mode" : "realtive",
-    "src": "D:\\Programs\\python_projects\\autobkp\\test_src",
+    "src": "",
     "dst": "",
     "freq": "30",
     "log_level": "INFO",
